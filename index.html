@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+     <link rel="stylesheet" href="css/header.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabecera">
+            <img class="icono" src="img/icono.ico" alt="Logo de tu encriptador">
+            <h1>Encriptador de texto</h1>
+        </div>
+    </header>
+    <main>
+        <section>
+            <textarea class="texto-user" cols="40" rows="10" placeholder="Ingrese texto aqui" ></textarea>
+            <div>
+                <h6 class="informacion">
+                    Solo letras minúsculas y sin acentos
+                </h6>
+            </div>
+            <div class="btns">
+                <button class="btn__encriptar" onclick="encriptar()">Encriptar</button>
+                <button class="btn__desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="30" rows="10" readonly></textarea>
+            <div>
+                <button class="copy">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- <div class="container contenedor__texto">
+        
+        <p class="titulo__texto">Ingrese el texto aqui
+        </p>
+        <textarea name="" id="" class="texto__original"></textarea>
+        <button class="btn__encriptar">Encriptar</button>
+    </div> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
